@@ -4,6 +4,7 @@
   "description": "Promise with .resolve() and .reject() methods",
   "main": "index.js",
   "types": "index.d.ts",
+  "type": "module",
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc"
