@@ -13,5 +13,4 @@ const resolvablePromise = <T = void>(): Resolvable<T> => {
   promise.reject = reject!
   return promise
 }
-export default resolvablePromise
-module.exports = resolvablePromise
+export default resolvablePromise;
